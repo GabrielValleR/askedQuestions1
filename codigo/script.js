@@ -8,9 +8,7 @@ function esconder(id) {
         document.getElementById(id).style.display = 'none';
 }
 function trocar(a,b){
-
     let display = document.getElementById(a).style.display;
-
     if(display == "none"  )
     document.getElementById(b).setAttribute("class", "demoClass1");
     else
